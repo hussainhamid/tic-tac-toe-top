@@ -1,4 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 body {
-    background-color: rgb(41, 38, 38);
-    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    border: 2px solid rgb(148, 145, 145);
+    box-shadow: 0 0 0 1px;
+    font-size: 45px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.cell-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 30px;
+    margin-top: 50px;
+    margin-left: 40%;
+}
+
+#title-div {
+    margin-left: 41%;
+    margin-top: 20px;
+
+}
+
+.status-text {
+    margin-left: 41%;
+    margin-top: 30px;
+}
+
+#restart-btn {
+    margin-left: 45%;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px;
+
 }
