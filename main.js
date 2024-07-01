@@ -71,6 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             if (roundWon) {
                 statusText.textContent = `${currentPlayer} won!`;
+                running = false;
             }
             
             else if (!options.includes("")) {
